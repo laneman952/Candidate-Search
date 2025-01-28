@@ -1,33 +1,44 @@
-# React + TypeScript + Vite
+# 13-Candidate-Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+  ## Description
+  This project is creating an application that allows a user to search for candidates to hire. It can save and remove potential candidates with their information.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+  ## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-* Configure the top-level `parserOptions` property as follows:
+  ## Installation
+  To install necessary dependencies, run the following command:
+  npm create vite
+  npm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+  ## Usage
+  npm run start:dev to start application
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+  ## License
+  This project is licensed under the MIT License.
+
+
+  ## Contributing
+  Fork the repository, create a new branch, and submit a pull request.
+
+
+  ## Tests
+  To run tests, run the following command:
+  No available tests.
+
+
+  ## Questions
+  For any questions, you can contact me at [some email](mailto:some email).
+  GitHub: [Some username](https://github.com/Some username)
